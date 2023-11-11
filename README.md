@@ -10,7 +10,7 @@ Copy to /boot/dtb/sunxi/overlay .
 Add <code> overlay=nogpu </code> to /boot/orangepiEnv.txt
 
 You can lower ethernet speed with:  
-<code> wmii-tool -F 100baseTx-FD eth0 </code>  
+<code> mii-tool -F 100baseTx-FD eth0 </code>  
 
 Ethtool is not working fot this specific kernel.
 Check temp with:  
