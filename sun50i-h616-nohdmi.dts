@@ -1,0 +1,18 @@
+/dts-v1/;
+/plugin/;
+
+&{/soc/hdmi@6000000} {
+	status = "disabled";
+		};
+&{/soc/ahub1_plat} {
+	status = "disabled";
+		};
+&{/soc/ahub1_mach} {
+	status = "disabled";
+		};
+&{/soc/deinterlace@1420000} {
+	status = "disabled";
+		};
+&{/soc/lcd0@1c0c000} {
+	status = "disabled";
+		};

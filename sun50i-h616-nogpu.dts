@@ -1,0 +1,9 @@
+/dts-v1/;
+/plugin/;
+
+&{/soc/disp@1000000} {
+	status = "disabled";
+		};
+&{/soc/gpu@1800000} {
+	status = "disabled";
+		};

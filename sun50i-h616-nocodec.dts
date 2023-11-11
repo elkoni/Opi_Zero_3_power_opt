@@ -1,0 +1,12 @@
+/dts-v1/;
+/plugin/;
+
+&{/soc/codec@5096000} {
+	status = "disabled";
+		};
+&{/soc/codec_plat} {
+	status = "disabled";
+		};
+&{/soc/codec_mach} {
+	status = "disabled";
+		};
