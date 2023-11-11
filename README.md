@@ -1,5 +1,6 @@
 # Opi_Zero_3_power_opt
 Various tweaks to reduce power consumption of the OrangePi Zero 3.  
+You may disable unused peripherals like codec, gpu, hdmi ( with sound ).  
 Kernel used is 5.4.125. Image is debian server.  
 
 Compile with:  
